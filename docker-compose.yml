@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  discord_bot:
+    container_name: discord_bot
+    build: .
+    restart: always
+    # env_file:
+    #   - .env
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}

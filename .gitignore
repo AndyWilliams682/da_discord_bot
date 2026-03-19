@@ -1,0 +1,7 @@
+/target/
+Cargo.lock
+discord_bot.iml
+/.idea/
+/.vscode/
+deploy
+.env
